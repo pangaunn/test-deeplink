@@ -17,7 +17,8 @@ export default {
       const { type } = route.query
       switch (type) {
         case 'youtube':
-          window.location.href = 'youtube://youtube.com/playlist?list=PLYd7ec6V3xTNCfQK7-ceEImpWUKUQ4RjC'
+          // window.location.href = 'youtube://youtube.com/playlist?list=PLYd7ec6V3xTNCfQK7-ceEImpWUKUQ4RjC'
+          window.location.href = 'vnd.youtube://4KnNVK-udTU'
           break
         case 'spotify':
           window.location.href = 'spotify://playlist/37i9dQZF1DXdzw50tzi795'
