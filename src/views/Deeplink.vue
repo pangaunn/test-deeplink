@@ -17,13 +17,13 @@ export default {
       const { type } = route.query
       switch (type) {
         case 'youtube':
-          window.location = 'youtube://youtube.com/playlist?list=PLYd7ec6V3xTNCfQK7-ceEImpWUKUQ4RjC'
+          window.location.href = 'youtube://youtube.com/playlist?list=PLYd7ec6V3xTNCfQK7-ceEImpWUKUQ4RjC'
           break
         case 'spotify':
-          window.location = 'spotify://playlist/37i9dQZF1DXdzw50tzi795'
+          window.location.href = 'spotify://playlist/37i9dQZF1DXdzw50tzi795'
           break
         case 'applemusic':
-          window.location = 'intent://music.apple.com/us/playlist/soul-brother-no-2/pl.7927da5af7904fd18d1cadc916461e15/#Intent;package=com.apple.android.music;scheme=https;end'
+          window.location.href = 'intent://music.apple.com/us/playlist/soul-brother-no-2/pl.7927da5af7904fd18d1cadc916461e15/#Intent;package=com.apple.android.music;scheme=https;end'
           break
         default:
       }
